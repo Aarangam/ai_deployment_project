@@ -1,0 +1,12 @@
+config.json
+.env
+venv/
+.deepeval/
+ai_deplyment_project/
+Data/
+__pycache__/
+*.pdf
+*.xlsx
+*.csv
+Project_Notebook.ipynb
+README.md
