@@ -3,6 +3,9 @@ FROM python:3.13.15-slim
 WORKDIR /app
 COPY . .
 
+ENV PIP_DEFAULT_TIMEOUT=120
+ENV PIP_RETRIES=10
+
 RUN pip install --no-cache-dir --upgrade pip
 
 RUN pip install --no-cache-dir \
